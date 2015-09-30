@@ -1,6 +1,6 @@
 # Battleship
 
-Battleship is a game played by 2 players (or 1 player vs. the computer).
+Battleship is a game played by 2 players.
 More info about the game itself: https://en.wikipedia.org/wiki/Battleship_%28game%29#Description
 
 # About the project
