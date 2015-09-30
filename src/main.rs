@@ -21,7 +21,7 @@ fn display_upper_row(line: &str, amount_of_columns: i32) {
     }
     let column_part = format!("|  {}  |", parts.join("  |  ")); // String, because it needs to be growable
 
-    println!("{}", line);
+    println!(" {}", line);
     println!("{}", column_part);
-    println!("{}", line);
+    println!(" {}", line);
 }
