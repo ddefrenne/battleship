@@ -19,7 +19,7 @@ fn display_upper_row(line: &str, amount_of_columns: i32) {
     for column in (1..amount_of_columns + 1) {
         parts.push(column.to_string());
     }
-    let mut column_part = format!("|  {}  |", parts.join("  |  ")); // String, because it needs to be growable
+    let column_part = format!("|  {}  |", parts.join("  |  ")); // String, because it needs to be growable
 
     println!("{}", line);
     println!("{}", column_part);
